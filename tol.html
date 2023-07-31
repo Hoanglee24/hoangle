@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0 auto;
+            padding:50px;
+            background-color: #f2f2f2;
+            font-size: 20px;
+        }
+        form{
+            margin:0px 0px 0px 500px;
+            background-color: #fff;
+            width: 300px;
+            padding: 50px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+            display: block;
+
+        }
+        h2{
+            font-size: 30px;
+            font-family: sans-serif;
+            margin-left: 90px;
+            margin-top:-25px;
+        }
+        input[type=email],[type=password]{
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px #ccc;
+            padding:10px;
+            display: block;
+            margin-top:10px;
+            margin-bottom: 10px;
+            width: 95%;
+        }
+        label{
+            font-family: sans-serif;
+            display: block;
+            margin-top:10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        input[type=submit]{
+            margin-top: 0px;
+            background-color: #000000;
+            border:0.5px solid black;
+            border-radius: 7px;
+            box-shadow: 0px 0px 20px #ccc;
+            padding:10px;
+            color : white;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        .thea{
+            margin-top: 25px;
+            font-size: 13px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        input[type=submit]:hover{
+            background-color: #fff;
+            color : black;
+        }
+        p{
+            font-size: 12px;
+            margin-left: 20px;
+            margin-top  : -18px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="">
+        <h2>Đăng Nhập</h2>
+        <label for="username"> Tên Đăng Nhập:</label>
+        <input type="email" name="username" id="username" placeholder="Email" autocomplete="on" required>
+        <label for="password">Mật khẩu:</label>
+        <input type="password" name="password" id="password" placeholder="Password" autocomplete="on" required>
+        <input type="checkbox" id="checkbox" name="checkbox" required><p>Nhớ Mặt Khẩu</p> </input>
+        <input type="checkbox" name="checkbox" id="checkbox" placeholder="" required ><p>Đồng ý (Điều Khoản Cộng Đồng)</p></input>
+        <input type="submit" value="Đăng Nhập" formaction="https://www.facebook.com/profile.php?id=100034645429065">
+        <div class="thea">
+        <a href="#">Quên Mật Khẩu?</a> &emsp; &emsp;
+        <a href="#">Tạo Tài Khoản Mới</a>
+    </div>
+    </form>
+</body>
+</html>
